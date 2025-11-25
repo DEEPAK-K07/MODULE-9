@@ -1,7 +1,7 @@
 # 🧮 List Comprehension:Transpose of Matrix 
 
 ## 🎯 AIM:
-To write a Python program to compute the **transpose** of a matrix using **list comprehension**.
+Write a Python class program to store all odd numbers between 500 and 600 in a reverse order  using list comprehension
 
 ---
 
@@ -18,10 +18,23 @@ To write a Python program to compute the **transpose** of a matrix using **list 
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+```
+class OddNumbers:
+    def __init__(self):
+        self.odd_numbers = [num for num in range(599, 499, -2)]
+    
+    def get_numbers(self):
+        return self.odd_numbers
+
+odd_numbers_instance = OddNumbers()
+
+print(odd_numbers_instance.get_numbers())
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/bac77514-fc1a-4f71-851d-187999b39a41)
 
 ## RESULT:
+      Thus ,the Python program to compute the **transpose** of a matrix using **list comprehension**.
 
 
